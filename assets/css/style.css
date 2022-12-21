@@ -1,0 +1,49 @@
+body{
+position: relative;
+display: block;
+background: #ffc800;
+height: 100vh;
+}
+.Box{
+position: absolute;
+display: inline-block;
+width: 400px;
+background: #000;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+border-radius: 10px;
+padding: 25px;
+text-align: center;
+box-sizing: border-box;
+color: #fff;
+}
+.Box h1{
+font-size: 65px;
+}
+.Box p{
+position: relative;
+display: block;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.7;
+word-spacing: 0px;
+text-align: left;
+letter-spacing: 0.9px;
+word-wrap: break-word;
+opacity: 0;
+}
+
+.Box .fade {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+.Box button{
+border: 2px solid #bb7900;
+background: #ffc800;
+color: #000;
+font-size: 20px;
+font-weight: 700;
+padding: 10px 25px;
+border-radius: 8px;
+}
