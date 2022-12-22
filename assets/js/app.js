@@ -13,8 +13,9 @@ button.addEventListener('click', e =>{
     p.textCpontent = "hello" ;
      //p.textCpontent = `${item.joke}`;
      p.classList.add('fade')
+   
  }) 
-
+})
 
 
 
