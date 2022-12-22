@@ -3,9 +3,10 @@ const button = document.querySelector('button');
 
 const url = `https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single`
 
-button.addEventListener('click', jokes(e) 
+button.addEventListener('load', jokes(e)) 
+button.addEventListener('click', jokes(e)) 
 
-)
+
 
 function jokes(e){
   p.classList.remove('fade')
