@@ -5,7 +5,7 @@ const url = `https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,polit
 
 
 button.addEventListener('click', (e) =>{
-p.textCpontent = "hello" ;
+p.textContent = "hello" ;
   
 })
 
@@ -18,7 +18,7 @@ p.classList.remove('fade')
   .then(data => data.json())
   .then(item =>{
     
-     //p.textCpontent = `${item.joke}`;
+     //p.textContent = `${item.joke}`;
      p.classList.add('fade')
    
  }) 
