@@ -10,7 +10,8 @@ button.addEventListener('click', e =>{
   fetch(url)
   .then(data => data.json())
   .then(item =>{
-     p.textCpontent = `${item.joke}`;
+    p.textCpontent = "hello" ;
+     //p.textCpontent = `${item.joke}`;
      p.classList.add('fade')
  }) 
 
