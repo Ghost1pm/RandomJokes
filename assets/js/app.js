@@ -5,6 +5,7 @@ const url = `https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,polit
 
 
 button.addeventlistener('click', e=>{
+  console.log("hello") 
   p.classList.remove('fade')
   fetch(url)
   .then(data => data.json())
