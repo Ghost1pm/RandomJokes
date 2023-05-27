@@ -1,2 +1,2 @@
  RandomJokes
-# [RandomJokes](https://Gojo54.github.io/RandomJokes/)
+# [RandomJokes](https://shinChan54.github.io/RandomJokes/)
